@@ -10,7 +10,7 @@ module.exports = defineConfig({
     },
     baseUrl: 'http://automationpratice.com.br',
     defaultCommandTimeout: 5000,
-    viewportWidth: 1920,
+    viewportWidth: 1921,
     viewportHeight: 1080,
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
